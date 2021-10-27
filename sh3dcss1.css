@@ -1,0 +1,44 @@
+div
+{
+    background-color:cyan;
+    width:300px;
+    height:200px;
+    font-size: 25px;
+    line-height: 75px;
+    margin:300px;
+    
+}
+#rot:hover
+{
+    /* background-color:cyan;
+    width:300px;
+    height:200px;
+    font-size: 25px;
+    line-height: 75px; */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateZ(30deg); */
+    /* transform: rotate3d(x y z 150deg); */
+    /* transform: scaleX(2.5); */
+    /* transform:skewX(12deg); */
+    transform:translateX(200px) translateY(100px);
+    /* transition-duration: 12s;
+    transition-delay:2s ; */
+}
+
+#bot
+{
+    width: 250px;
+    height: 250px;
+    background-color: darkred;
+    transition-delay: 2s;
+
+}
+#bot :hover
+{
+    width:400px;
+    height: 400px;
+    background-color: indigo;
+    font-size:5em;
+    transition: width, 15s,font-size,12s;
+
+} 
